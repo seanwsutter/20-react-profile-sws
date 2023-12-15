@@ -11,35 +11,28 @@ import AboutMe from './components/AboutMe';
 
 // css
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+// import './App.css';
 
 
 export default function App() {
-  [count, setCount] = useState(0)
 
   return (
     <>
-      <Header />
       <BrowserRouter>
-        <Routes>
-
-          <Route to="/" element={<AboutMe />} />
-          <Route to="">Portfolio</Route>
-          <Route to="">Contact</Route>
-          <Route to="">Resume</Route>
-
-        </Routes>
+        <Header />
+        <AboutMe />
       </BrowserRouter>
+
     </>
   )
 }
 
-{/* <Route to="/" element={<AboutMe/>} /> */ }
-{/* <Route to="">Portfolio</Route>
+/* <Route to="/" element={<AboutMe/>} /> */
+/* <Route to="">Portfolio</Route>
           <Route to="">Contact</Route>
-          <Route to="">Resume</Route> */}
+          <Route to="">Resume</Route> */
 
-{/*   return (
+/*   return (
     <>
       <Header />
       <BrowserRouter>
@@ -54,4 +47,4 @@ export default function App() {
         </Routes>
       </BrowserRouter>
     </>
-  )*/}
+  )*/
