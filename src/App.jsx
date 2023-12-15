@@ -1,19 +1,21 @@
-import { useState } from 'react'
-
+// import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-// import components
+// components
 import Header from './components/Header';
-import Aboutme from './components/Aboutme';
-import Footer from './components/Footer';
-// import Header from './components/Header'
-// import Header from './components/Header'
+import AboutMe from './components/AboutMe';
+// import Portfolio from './components/Portfolio';
+// import Contact from './components/Contact';
+// import Resume from './components/Resume';
+// import Footer from './components/Footer';
 
 // css
-// import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 
 export default function App() {
+  [count, setCount] = useState(0)
 
   return (
     <>
@@ -21,10 +23,10 @@ export default function App() {
       <BrowserRouter>
         <Routes>
 
-          <Route to="/" element={<Aboutme />} />
-          {/* <Route to="">Portfolio</Route>
+          <Route to="/" element={<AboutMe />} />
+          <Route to="">Portfolio</Route>
           <Route to="">Contact</Route>
-          <Route to="">Resume</Route> */}
+          <Route to="">Resume</Route>
 
         </Routes>
       </BrowserRouter>
@@ -32,7 +34,10 @@ export default function App() {
   )
 }
 
-
+{/* <Route to="/" element={<AboutMe/>} /> */ }
+{/* <Route to="">Portfolio</Route>
+          <Route to="">Contact</Route>
+          <Route to="">Resume</Route> */}
 
 {/*   return (
     <>
