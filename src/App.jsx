@@ -1,9 +1,9 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // components
 import Header from './components/Header';
-// import AboutMe from './components/AboutMe';
+import AboutMe from './components/AboutMe';
 // import Portfolio from './components/Portfolio';
 // import Contact from './components/Contact';
 // import Resume from './components/Resume';
@@ -11,23 +11,34 @@ import Footer from './components/Footer';
 
 // css
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import './App.css';
+import './App.css';
 
 
 export default function App() {
+  // initializes state variable count using useState
+  const [count, setCount] = useState(0)
 
   return (
     <>
-      <BrowserRouter>
+      <div className="body">
         <Header />
-        {/* <AboutMe /> */}
-        <Footer />
-      </BrowserRouter>
+        <div className="container">
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<AboutMe />} />
 
+             
+            </Routes>
+          </BrowserRouter>
+        </div>
+        <Footer />
+      </div>
     </>
   )
 }
 
+ {/* <AboutMe /> */}
+  {/* <Footer /> */}
 /* <Route to="/" element={<AboutMe/>} /> */
 /* <Route to="">Portfolio</Route>
           <Route to="">Contact</Route>

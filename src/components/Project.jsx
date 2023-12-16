@@ -2,12 +2,13 @@ export default function Project() {
   return (
     <>
     <h1>Project</h1>
-   
-    // project title
-    // image/gif/screenshot app preview
-    // URL link
-    // github repo link
 
     </>
   )
 }
+
+{/* <h1>About Me</h1>
+<p>My Name is Sean Sutter</p>
+<a href="/link-to-another-page">
+  <img src="https://i.imgur.com/sWnEK1H.png" alt="A descriptive alt text" />
+</a> */}

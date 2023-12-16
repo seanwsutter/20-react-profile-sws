@@ -1,9 +1,15 @@
-export default function AboutMe() {
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+export default function Contact() {
   return (
     <>
-      <h1>Contact</h1>
-      <p>seanwsutter@gmail.com</p>
-      <p>651-815-2888</p>
+      <div className="contactInfo">
+        <h5>Contact</h5>
+
+        <p>myname@gmail</p>
+        <p>123-456-7891</p>
+
+      </div>
     </>
   )
 }
