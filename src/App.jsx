@@ -3,11 +3,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 // components
 import Header from './components/Header';
-import AboutMe from './components/AboutMe';
+// import AboutMe from './components/AboutMe';
 // import Portfolio from './components/Portfolio';
 // import Contact from './components/Contact';
 // import Resume from './components/Resume';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 // css
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,7 +20,8 @@ export default function App() {
     <>
       <BrowserRouter>
         <Header />
-        <AboutMe />
+        {/* <AboutMe /> */}
+        <Footer />
       </BrowserRouter>
 
     </>
