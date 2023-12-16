@@ -2,7 +2,8 @@
 
 ## Description
 
-React Profile for Sean Sutter.
+React Profile for Sean Sutter. Follows the standard webpage layout. Header with navigational links to pages About Me, Portfolio, Resume and Contact. Each page also renders different components.
+
 
 ## Table of Contents
 - [Description](#description)
@@ -10,7 +11,7 @@ React Profile for Sean Sutter.
 - [Preview](#preivew)
 - [Deployment](#deployment)
 
-## Layout
+## Technology
 
 Follows the standard webpage layout. Header with navigational links to pages About Me, Portfolio, Resume and Contact. Each page also renders different components.
 
