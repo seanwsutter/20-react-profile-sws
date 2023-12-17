@@ -2,10 +2,16 @@
 export default function Contact() {
   return (
     <>
-      <div>
-        <h5>Contact Form</h5>
+ 
+      <div className="contactInfo">
+      <h5><a href="/">Sean Sutter</a></h5>
 
-      </div>
+        <p>myname@gmail</p>
+        <p>GitHub</p>
+        </div>
+      
     </>
   )
 }
+
+// https://github.com/seanwsutter/20-react-profile-sws
