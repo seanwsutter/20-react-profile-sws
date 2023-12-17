@@ -4,9 +4,9 @@ export default function Portfolio() {
   return (
     <>
       <div className="container">
-      <h2>Recent Projects</h2>
-      <Project imgUrl="https://i.imgur.com/cY1c3v5.png"/>
-    </div >
+        <h2>Recent Projects</h2>
+        <Project imgUrl="https://i.imgur.com/cY1c3v5.png" />
+      </div>
     </>
   )
 }

@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+// pages
+import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+
 // components
 import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-// import Portfolio from './components/Portfolio';
-// import Contact from './components/Contact';
-// import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 // css
@@ -15,7 +17,7 @@ import './App.css';
 
 
 export default function App() {
-  // initializes state variable count using useState
+  // navbar style change depending on what path your currently on
   const [count, setCount] = useState(0)
 
   return (
@@ -26,8 +28,10 @@ export default function App() {
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<AboutMe />} />
+              <Route path="/portfolio" element={<Portfolio />} />
+              <Route path="/resume" element={<Resume />} />
+              <Route path="/contact" element={<Contact />} />
 
-             
             </Routes>
           </BrowserRouter>
         </div>
@@ -37,26 +41,3 @@ export default function App() {
   )
 }
 
- {/* <AboutMe /> */}
-  {/* <Footer /> */}
-/* <Route to="/" element={<AboutMe/>} /> */
-/* <Route to="">Portfolio</Route>
-          <Route to="">Contact</Route>
-          <Route to="">Resume</Route> */
-
-/*   return (
-    <>
-      <Header />
-      <BrowserRouter>
-        <Routes>
-  
-            <Navbar.Link href="">About </Navbar.Link>
-            <Navbar.Link href="">Portfolio</Navbar.Link>
-            <Navbar.Link href="">Contact</Navbar.Link>
-            <Navbar.Link href="">Resume</Navbar.Link>
-    
-
-        </Routes>
-      </BrowserRouter>
-    </>
-  )*/

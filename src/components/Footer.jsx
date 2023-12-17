@@ -1,4 +1,4 @@
-import Contact from "./Contact"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Header() {
   return (
@@ -8,7 +8,7 @@ export default function Header() {
           <h5>Contact</h5>
        
           <p>myname@gmail</p>
-            <p>123-456-7891</p>
+          <p>123-456-7891</p>
       
         </div>
 
