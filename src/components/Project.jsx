@@ -1,14 +1,15 @@
 export default function Project() {
   return (
-    <>
-    <h1>Project</h1>
+  <>
+<div className='container text-center bg-dark-subtle'>
+  <h1>Projects</h1>
 
-    </>
+  <img src="https://i.imgur.com/cY1c3v5.png" className="profileImg" style={{ width: "20%" }}/>
+
+  <p>My Name is Sean Sutter and welcome to my react profile!</p>
+  <p>Portfolio contains recent projects with a preview image and a repository linmk</p>
+</div>
+</> 
   )
 }
 
-{/* <h1>About Me</h1>
-<p>My Name is Sean Sutter</p>
-<a href="/link-to-another-page">
-  <img src="https://i.imgur.com/sWnEK1H.png" alt="A descriptive alt text" />
-</a> */}

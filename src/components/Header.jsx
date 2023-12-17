@@ -1,6 +1,4 @@
-// import Nav from 'react-bootstrap/Nav'
-// import Navbar from 'react-bootstrap/Navbar'
-// import Container from 'react-bootstrap/Container';
+
 import Navigation from './Navigation'
 
 import 'bootstrap/dist/css/bootstrap.min.css';

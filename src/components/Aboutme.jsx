@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function AboutMe() {
   return (
@@ -13,7 +12,7 @@ export default function AboutMe() {
           alt="A descriptive alt text" />
 
         <p>My Name is Sean Sutter and welcome to my react profile!</p>
-        <p>ortfolio contains recent projects with a preview image and a repository linmk</p>
+        <p>Portfolio contains recent projects with a preview image and a repository linmk</p>
       </div>
     </>
   );

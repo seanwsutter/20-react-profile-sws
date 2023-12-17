@@ -26,5 +26,10 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "vite": "^5.0.8"
-  }
+  },
+  "description": "React Profile for Sean Sutter. Follows the standard webpage layout. Header with navigational links to pages About Me, Portfolio, Resume and Contact. Each page also renders different components.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
