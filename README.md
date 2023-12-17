@@ -13,13 +13,15 @@ React Profile for Sean Sutter. Follows the standard webpage layout. Header with 
 
 ## Technology
 
-Follows the standard webpage layout. Header with navigational links to pages About Me, Portfolio, Resume and Contact. Each page also renders different components.
+Using React and Vite to build our profile and then deploy to Netlify
 
 ## Preview
 
+![Preview](https://i.imgur.com/YGrCggj.png)
+
 ## Deployment 
 
-[Netlify URL](https://frolicking-froyo-266e51.netlify.app/)
+[Netlify URL](https://657ee8d070b54166c5803b5d--vocal-cat-fce161.netlify.app/)
 
 [GitHub Repository](https://github.com/seanwsutter/20-react-profile-sws)
 
