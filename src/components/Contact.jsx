@@ -2,14 +2,14 @@
 export default function Contact() {
   return (
     <>
- 
-      <div className="contactInfo">
-      <h5><a href="/">Sean Sutter</a></h5>
 
-        <p>myname@gmail</p>
+      <div className="contactInfo">
+        <h5><a href="/">Sean Sutter</a></h5>
+
+        <p>seanwsutter@gmail</p>
         <p>GitHub</p>
-        </div>
-      
+      </div>
+
     </>
   )
 }
